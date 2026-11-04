@@ -23,7 +23,7 @@ My path into AI started with hardware. I ran a 3D printing service, then did my 
 | Role | What it involves |
 |---|---|
 | **AI Developer, QuantumBot** (full-time) | RAG, voice AI, document processing, fine-tuning, and the APIs around them. |
-| **AI Consultant & Forward Deployed Engineer** (freelance) | Working directly with teams to take an AI idea from prototype to something running in production. |
+| **AI Consultant & Forward Deployed Engineer** (independent) | Working directly with teams to take an AI idea from prototype to something running in production. |
 | **Founder, [Triv3D](https://www.instagram.com/triv3d.official/)** | A 3D printing service for custom parts and prototypes. |
 
 ## Production work at QuantumBot
@@ -57,9 +57,27 @@ Personal projects, built end to end.
 | **Exploring** | LangGraph, MCP, vLLM, SGLang, Ollama, LiteLLM, Groq, OpenRouter, agent skills and AI coding harnesses |
 | **Tooling** | Docker, Git, GitHub Actions, Linux |
 
-## Let's work together
+## Let's build something useful
 
-I'm open to conversations about RAG architecture, voice AI, document automation, and LLM systems that need to work at scale. For freelance consulting or deployment work, email me or message me on LinkedIn.
+I'm open to conversations about RAG architecture, voice AI, document intelligence, AI agents, and LLM systems designed for real-world production environments.
+
+Beyond engineering, I offer AI consulting and forward-deployed engineering services, helping businesses move from AI ideas to working solutions.
+
+**AI Consulting**
+
+- Identify where AI and automation can deliver measurable business value.
+- Evaluate models, architectures, infrastructure, and implementation strategies.
+- Turn business requirements and early-stage ideas into practical technical roadmaps.
+
+**AI Automation & Deployment**
+
+- Design and build custom AI-powered workflows and autonomous agents.
+- Integrate RAG systems, voice agents, and document intelligence into existing business processes.
+- Deploy, optimize, and hand over production-ready solutions.
+
+I believe in building AI that solves actual problems, fits into existing workflows, and delivers concrete outcomes.
+
+**Have a problem worth solving?** Reach out via email or connect with me on LinkedIn to discuss AI consulting, automation projects, or deployment opportunities.
 
 <div align="center">
 
