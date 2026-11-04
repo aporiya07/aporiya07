@@ -9,7 +9,7 @@
 <img src="https://img.shields.io/badge/GitHub-aporiya07-203A43?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </a>
 <!-- Replace YOUR_LINKEDIN_USERNAME with your actual LinkedIn username -->
-<a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME/">
+<a href="https://www.linkedin.com/in/aporiya30">
 <img src="https://img.shields.io/badge/LinkedIn-Connect-203A43?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
 
