@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="Ankit Poriya, AI Developer building RAG, voice AI and agentic systems" />
+<img src="assets/banner.svg" width="100%" alt="Ankit Poriya, AI Engineer building RAG, voice AI and agentic systems" />
 
 <a href="mailto:a.poriya309@gmail.com"><img src="https://img.shields.io/badge/Email-a.poriya309%40gmail.com-2C5364?style=for-the-badge&labelColor=101820" alt="Email" /></a>
 <a href="https://www.linkedin.com/in/aporiya30"><img src="https://img.shields.io/badge/LinkedIn-aporiya30-2C5364?style=for-the-badge&labelColor=101820" alt="LinkedIn" /></a>
@@ -14,15 +14,17 @@
 
 ## About
 
-I'm an AI developer at **QuantumBot**, where I build production AI systems: RAG pipelines, multilingual voice assistants, and document intelligence. Over the past few years I've shipped 10+ AI applications that run daily and hold up under load.
+I'm an AI Engineer at **QuantumBot**, building production-grade AI systems across RAG pipelines, multilingual voice assistants, and document intelligence. I've worked on 10+ AI applications, taking ideas from prototype to production systems that run daily in real-world environments.
 
-My path into AI started with hardware. I ran a 3D printing service, then did my master's in Communication Systems and Networks at Cologne University of Applied Sciences, where my thesis was a real-time computer-vision system that detects print defects. Different domain, same instinct: build intelligent systems that solve real operational problems.
+My journey into AI started with hardware and hands-on engineering. I ran a 3D printing service before pursuing my master's in Communication Systems and Networks at Cologne University of Applied Sciences. My master's thesis focused on developing a real-time computer vision system for detecting defects in 3D-printed objects.
+
+From hardware to computer vision to agentic AI, the underlying motivation has remained the same: building intelligent systems that solve real operational problems.
 
 ## What I'm doing now
 
 | Role | What it involves |
 |---|---|
-| **AI Developer, QuantumBot** (full-time) | RAG, voice AI, document processing, fine-tuning, and the APIs around them. |
+| **AI Engineer, QuantumBot** (full-time) | RAG, voice AI, document processing, fine-tuning, and the APIs around them. |
 | **AI Consultant & Forward Deployed Engineer** (independent) | Working directly with teams to take an AI idea from prototype to something running in production. |
 | **Founder, [Triv3D](https://www.instagram.com/triv3d.official/)** | A 3D printing service for custom parts and prototypes. |
 
