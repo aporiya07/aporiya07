@@ -50,7 +50,7 @@ Personal projects, built end to end.
 
 ## Tech stack
 
-| | |
+| Area | Tools |
 |---|---|
 | **Day to day** | Python, FastAPI, LangChain, Hugging Face, Gemini API, RAG, vector databases, OCR, Whisper, LoRA / QLoRA, Streamlit, Google Cloud |
 | **Frontend** | React, TypeScript, JavaScript, Node.js |
