@@ -2,16 +2,12 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg" />
-  <img src="assets/banner-light.svg" width="100%" alt="Ankit Poriya, AI Engineer working on RAG, voice AI, agentic systems, data annotation and computer vision" />
+  <img src="assets/banner-light.svg" width="100%" alt="Ankit Poriya, AI Engineer: agentic systems, LLM infrastructure and applied AI; RAG, multi-agent workflows, voice AI and document intelligence" />
 </picture>
 
-<a href="mailto:a.poriya309@gmail.com"><img src="https://img.shields.io/badge/Email-a.poriya309%40gmail.com-2F6B4F?style=for-the-badge&labelColor=3B403D" alt="Email" /></a>
-<a href="https://www.linkedin.com/in/aporiya30"><img src="https://img.shields.io/badge/LinkedIn-aporiya30-2F6B4F?style=for-the-badge&labelColor=3B403D" alt="LinkedIn" /></a>
-<a href="https://www.instagram.com/triv3d.official/"><img src="https://img.shields.io/badge/Instagram-triv3d.official-2F6B4F?style=for-the-badge&labelColor=3B403D" alt="Triv3D on Instagram" /></a>
-<br />
-<img src="https://img.shields.io/badge/Open_to-Freelance_annotation_%26_AI_projects-2F6B4F?style=flat-square&labelColor=3B403D" alt="Open to freelance annotation and AI projects" />
+**Designing and building intelligent systems for real-world workflows.**
 
-**Building production AI systems, and the clean, well-labeled data they depend on.**
+[LinkedIn](https://www.linkedin.com/in/aporiya30) · [Email](mailto:a.poriya309@gmail.com) · [Selected projects](#selected-projects) · [Work with me](#work-with-me)
 
 </div>
 
@@ -19,104 +15,113 @@
 
 ## About
 
-I'm an AI Engineer at **QuantumBot**, building production AI systems: RAG pipelines, multilingual voice assistants, and document intelligence. I've worked on 10+ AI applications, taking each one from prototype to a system that runs daily in a real environment.
+I'm **Ankit Poriya**, an AI Engineer based in Ahmedabad, India. At **QuantumBot**, I work on production AI systems spanning retrieval-augmented generation (RAG), conversational and multi-agent workflows, multilingual voice AI, document intelligence, and model integration.
 
-I came to AI through hardware. I ran a 3D printing service, then completed a master's in Communication Systems and Networks at Cologne University of Applied Sciences. My thesis was a real-time computer vision system that detects defects in 3D prints, and I built and labeled its training dataset myself, from raw images to model-ready export.
+My work sits at the intersection of **AI application architecture, backend engineering, and deployment**. I'm especially interested in how intelligent systems behave beyond the demo: orchestration, retrieval quality, structured outputs, guardrails, evaluation, latency, inference cost, and operational reliability.
 
-That's why I also take on **freelance data annotation and labeling**. I've built the dataset, trained the model, and seen where poor labels break things, so I know what a model needs from its data.
+Outside work, I build independent software products and explore local AI infrastructure, computer vision, embedded electronics, and 3D printing. I hold an **M.Sc. in Communication Systems and Networks from TH Köln (Cologne University of Applied Sciences)**. My master's research focused on real-time computer-vision detection of defects during 3D printing, including dataset creation and model evaluation.
 
-## What I do
+## Engineering focus
 
-| Role | What it involves |
-|---|---|
-| **AI Engineer, QuantumBot** (full-time) | RAG, voice AI, document processing, fine-tuning, and the APIs around them. |
-| **Data Annotation & Labeling** (freelance) | Image and video annotation, dataset creation, and label QA for computer vision and robotics teams. |
-| **AI Consultant & Forward Deployed Engineer** (independent) | Taking a team's AI idea from prototype to production, working alongside them. |
-| **Founder, [Triv3D](https://www.instagram.com/triv3d.official/)** | 3D printing service for custom parts and prototypes. |
+| Domain | What I work on |
+| --- | --- |
+| **Agentic AI & orchestration** | Stateful workflows, multi-agent routing, tool use, human handoff, booking flows, and guardrails using LangGraph and Python. |
+| **RAG & knowledge systems** | Document ingestion, hybrid retrieval, vector databases, reranking, query pipelines, and retrieval evaluation. |
+| **LLM infrastructure** | Model gateways, provider routing, fallbacks, structured outputs, inference serving, and latency/cost benchmarking. |
+| **Applied AI products** | End-to-end applications that connect AI capabilities to usable interfaces, APIs, databases, and real business workflows. |
+| **Computer vision & edge AI** | Object detection, image annotation, dataset engineering, and experimentation with on-device models. |
 
-## Production work at QuantumBot
+## Selected projects
 
-| What I built | Result |
-|---|---|
-| Retrieval system (RAG + semantic search) | 500+ concurrent users at under 2 s query latency |
-| Multilingual voice AI assistant | 5 languages at 99.2% uptime |
-| Document ETL pipelines (OCR, PyMuPDF, Docling, Gemini API) | 10,000+ documents processed per day |
-| AI resume screener | 150 candidates per hour |
-| Fine-tuning (LoRA / QLoRA) and prompt engineering | 35% better model efficiency, 25% lower inference cost |
+A selection of products and engineering projects. Some are evolving prototypes; planned capabilities are identified as such.
 
-## Data annotation & labeling
+### DawaKhata — Mobile-first pharmacy operations
 
-I annotate image and video data for ML teams, with an engineer's eye for label consistency and for how the data will be used in training.
+An Android-focused billing and inventory application designed for smaller pharmacies that need practical stock, expiry, and sales management without relying on a desktop-based setup.
 
-### Services
+- **Product problem:** accessible pharmacy billing and inventory management on a phone.
+- **Core workflows:** medicine inventory, stock visibility, expiry tracking, and billing.
+- **Planned:** privacy-conscious, on-device ML for smarter data entry and inventory assistance.
 
-| Service | What I deliver |
-|---|---|
-| **Image annotation** | Bounding boxes, polygon / segmentation masks, image classification. |
-| **Video annotation** | Actions, task steps, and events across video, including robot and manipulation footage. |
-| **Dataset creation** | Class taxonomy design, image capture planning, train / validation / test splits, augmentation. |
-| **Label QA & cleanup** | Reviewing existing labels for missed objects, loose boxes, and inconsistent classes. |
-| **Model-ready export** | YOLO, COCO, Pascal VOC, or TFRecord, matched to your training pipeline. |
+**Focus:** Mobile product engineering · Offline-friendly workflows · Applied on-device AI
 
-### Experience
+### [ImPrompt](https://github.com/aporiya07/imprompt) — Visual reverse engineering for image models
 
-**Defect-detection dataset for 3D printing** (master's thesis)
+A structured image-to-prompt pipeline that translates visual references into model-specific, generation-ready prompts. Rather than producing generic captions, it preserves composition, human pose and relationships, scene structure, lighting, and uncertainty.
 
-Built and labeled the full dataset for a real-time print-defect detector, then trained and compared models on it.
+- Typed **Visual DNA** and creative-intent representations, with target-specific prompt adapters.
+- Handling for multiple people, occlusion, collages, moodboards, and panel continuity.
+- Deterministic diagnostics to evaluate prompt coverage, unsupported assumptions, and repetition.
 
-- **~1,000 source images**, captured and labeled by hand
-- **1,000+ annotated defect instances** across a 3-class taxonomy: spaghetti, warping, and layer shift
-- **Bounding boxes plus 550+ polygon segmentation masks**
-- Augmented to **2,355 images** with train / validation / test splits
-- Used to train and benchmark **YOLOv7, YOLOv8-L, and YOLOv8-X**, plus TensorFlow (MobileNet, ResNet) baselines
+**Stack:** Python · FastAPI · Pydantic · React · Vision/LLM APIs
 
-**Robot task video annotation** (freelance)
+### [Lead Miner](https://github.com/aporiya07/lead-miner-gen) — AI-assisted business lead discovery
 
-- Annotated videos of robots performing a range of tasks, labeling the actions and task steps in each clip for a robotics training dataset.
+A business lead discovery and extraction application combining web data acquisition, AI-assisted structured extraction, and an interactive dataset dashboard.
 
-### How I work
+- Discovery by industry, niche, and location, with structured business/contact fields.
+- FastAPI backend with Firecrawl integration and CSV export.
+- Browser-style dashboard for inspecting and managing extraction results.
 
-1. **Guidelines first.** Classes, edge cases, and examples are agreed in writing before labeling starts.
-2. **Pilot batch.** A small sample is labeled and reviewed with you before the full run.
-3. **Consistent labeling.** Every batch is checked against the guidelines before delivery.
-4. **Clean delivery.** Data is exported in your format, ready for training.
+**Stack:** Python · FastAPI · Firecrawl · JavaScript · CSS
 
-**Tools:** Roboflow, Python, OpenCV, YOLO (v7 / v8), TensorFlow Object Detection API. I'm comfortable picking up a client's own platform quickly.
+### Additional work
 
-## Featured projects
+| Project | Engineering angle |
+| --- | --- |
+| [**Stadium Navi AI**](https://github.com/aporiya07/stadium-navi-ai) | Hackathon prototype for stadium operations and fan support; WebSockets, simulated crowd telemetry, AI-assisted incident/context flows, and accessible navigation. |
+| [**Verdant-AI**](https://github.com/aporiya07/Verdant-AI) | Carbon-awareness product with AI coaching, activity tracking, personalized challenges, and interactive globe visualization. |
+| [**StudySync**](https://github.com/aporiya07/StudySync) | Study and wellbeing companion with check-ins, AI insights, and safety-conscious chat behaviors. |
+| [**MoodMeal**](https://github.com/aporiya07/MoodMeal) | Meal recommendation experiment using mood, available ingredients, and preferences. |
 
-Personal projects, built end to end.
+## Professional engineering experience
 
-| Project | What it does | Stack |
-|---|---|---|
-| [**ImPrompt (VISURA)**](https://github.com/aporiya07/imprompt) | Turns reference images into structured descriptions and generation-ready prompts for image models. | Python, FastAPI, React |
-| [**Stadium Navi AI**](https://github.com/aporiya07/stadium-navi-ai) | Stadium operations and fan assistance: crowd visualization, incident handling, accessible wayfinding. | FastAPI, React, TypeScript, Gemini |
-| [**Verdant-AI**](https://github.com/aporiya07/Verdant-AI) | Carbon-footprint tracker with an AI coach, an interactive globe, and gamified sustainability challenges. | React, TypeScript, Gemini |
-| [**StudySync**](https://github.com/aporiya07/StudySync) | AI study companion with wellness check-ins and safety-conscious conversations. | React, Node.js, Gemini |
-| [**MoodMeal**](https://github.com/aporiya07/MoodMeal) | Meal planner that suggests dishes from mood, budget, dietary needs, and ingredients on hand. | JavaScript, Node.js, Gemini |
+### AI Engineer · QuantumBot
 
-## Tech stack
+My work includes building and iterating on AI systems that integrate retrieval, agents, model providers, APIs, and operational workflows. Areas of contribution include:
 
-| Area | Tools |
-|---|---|
-| **AI & LLM systems** | Python, FastAPI, LangChain, Hugging Face, Gemini API, RAG, vector databases, OCR, Whisper, LoRA / QLoRA, Streamlit, Google Cloud |
-| **Computer vision & data** | Roboflow, OpenCV, YOLOv7 / YOLOv8, TensorFlow Object Detection API, dataset augmentation and splitting |
-| **Frontend** | React, TypeScript, JavaScript, Node.js |
-| **Exploring** | LangGraph, MCP, vLLM, SGLang, Ollama, LiteLLM, Groq, OpenRouter, agent skills and AI coding harnesses |
-| **Tooling** | Docker, Git, GitHub Actions, Linux |
+- **Conversational AI and sales automation:** LangGraph-based orchestration, intent routing, persona-driven interactions, qualification, scheduling, follow-ups, and escalation paths.
+- **Retrieval and document workflows:** RAG pipelines, document extraction and normalization, vector search, hybrid retrieval, and reranking.
+- **Model integration and optimization:** multiple model providers, gateway/fallback patterns, structured responses, prompt and token-cost optimization, and performance evaluation.
+- **Voice and application integration:** multilingual conversational workflows, FastAPI services, and integration with product-facing systems.
+- **Engineering collaboration:** iterative architecture design, debugging, testing, and technical knowledge sharing.
+
+*Professional details are intentionally high level to respect employer and client confidentiality.*
+
+## Background: computer vision, hardware & making
+
+Before my current focus on LLM systems, I built a real-time **3D-print defect-detection** workflow for my master's thesis at TH Köln. The work covered image collection and annotation, computer-vision model training and comparison, and a notification workflow for detected print defects.
+
+I also run **[Triv3D](https://www.instagram.com/triv3d.official/)**, a small 3D printing initiative focused on custom objects, functional parts, and prototyping. Working across physical and software systems has shaped how I approach reliability, usability, and the details of shipping something people can actually use.
+
+## Technology
+
+| Area | Tools and concepts |
+| --- | --- |
+| **Languages & services** | Python, TypeScript, JavaScript, FastAPI, Node.js, REST APIs, WebSockets |
+| **AI application engineering** | LangGraph, LangChain, Pydantic, RAG, structured outputs, tool calling, agent orchestration |
+| **Models & infrastructure** | Hugging Face, LiteLLM, OpenAI/Gemini APIs, Ollama, llama.cpp, vLLM, SGLang *(evaluation/experimentation)* |
+| **Retrieval & data** | Qdrant, hybrid search, rerankers, PostgreSQL, SQLAlchemy, document ingestion |
+| **Interfaces & deployment** | React, Vite, Docker, Linux, GitHub Actions, cloud/VM environments |
+| **Computer vision & hardware** | OpenCV, YOLO, Roboflow, image annotation, 3D printing, ESP32 prototyping |
+
+I use AI coding agents and developer harnesses as part of my workflow, with my engineering focus on **system design, verification, and delivery**.
 
 ## Work with me
 
-**Data annotation & labeling.** Image and video annotation, dataset creation, and label QA for computer vision, robotics, and ML teams. Available for one-off batches and ongoing projects.
+I’m open to conversations about **AI engineering roles, technical collaborations, and independent consulting** involving:
 
-**AI consulting.** Finding where AI and automation can deliver measurable value, evaluating models and architectures, and turning early ideas into a practical technical roadmap.
+- RAG, knowledge assistants, and enterprise document workflows.
+- Agentic automation, tool-integrated assistants, and voice AI.
+- AI architecture, model evaluation, inference infrastructure, and deployment.
+- Early product scoping and practical implementation of AI features.
 
-**AI automation & deployment.** Custom AI workflows and agents (RAG, voice agents, document intelligence) built into your existing processes, deployed, and handed over production-ready.
+For a relevant project, share the problem, intended users, existing systems, and what success would look like.
 
-**Have data to label or a problem worth solving?** Email [a.poriya309@gmail.com](mailto:a.poriya309@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/aporiya30).
+**[Email me](mailto:a.poriya309@gmail.com)** · **[Connect on LinkedIn](https://www.linkedin.com/in/aporiya30)**
+
+---
 
 <div align="center">
-
-*Languages: English · Hindi · Gujarati · German (limited)  ·  Ahmedabad, India  ·  Remote-friendly*
-
+  <sub>Ahmedabad, India · English, Hindi, Gujarati · German (limited) · Open to remote collaboration</sub>
 </div>
